@@ -1,5 +1,5 @@
 {
-  "name": "@anamico/musselAV",
+  "name": "@anamico/musselav",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node example/exampleServer.js"
   },
+  "private": false,
   "author": "",
   "license": "ISC"
 }
