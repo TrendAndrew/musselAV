@@ -1,5 +1,5 @@
 
-# musselAV
+# @anamico/musselav
 
 ![musselAV](img/musselAV.png)
 
@@ -14,13 +14,13 @@ It's been designed to essentially impersonate a clamAV TCP server for simple fil
 add the library
 
 ```bash
-npm i --save musselAV
+npm i --save @anamico/musselav
 ```
 
 then utilise the server component in your code
 
 ```js
-const musselAV = require('musselAV');
+const musselAV = require('@anamico/musselav');
 
 const customAVScanner = new /*<your custom scanner>*/;
 

@@ -14,8 +14,8 @@ client.connect(3310, '127.0.0.1', function() {
 
 client.on('data', function(data) {
     const result = JSON.parse(data);
-	console.log('Received:', result);
-	client.destroy(); // kill client after server's response
+    console.log('Received:', result);
+    client.destroy(); // kill client after server's response
 });
 
 client.on('close', function() {
