@@ -30,7 +30,6 @@ const newServer = ({ port, sessionHandler, dataHandler, endHandler }) => {
         });
 
         socket.respond = async (data) => {
-            data.name = 'upload.name';
             socket.write(JSON.stringify(data, null, 2));
         }
     });
