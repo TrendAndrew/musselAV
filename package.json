@@ -1,5 +1,5 @@
 {
-  "name": "musselAV",
+  "name": "@anamico/musselAV",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
