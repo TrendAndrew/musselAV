@@ -1,10 +1,12 @@
 const net = require('net');
+const uuid = require('uuid').v4;
 
 const newServer = ({ port, sessionHandler, dataHandler, endHandler }) => {
 
     const server = net.createServer(async function(socket) {
 
-        //const sessionId = 'test';
+        const socketId = uuid();
+        socket.id = socketId;
 
         // notify new connection
         sessionHandler && sessionHandler(socket);

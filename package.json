@@ -1,6 +1,6 @@
 {
   "name": "@anamico/musselav",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,25 @@
     "start": "node example/exampleServer.js"
   },
   "private": false,
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "keywords": [
+    "clamAV",
+    "antivirus",
+    "virus",
+    "clamscan",
+    "upload",
+    "virus scanning",
+    "trend micro",
+    "clam",
+    "clamd",
+    "security"
+  ],
+  "author": "Andrew Longhorn <manager@imagineit.com.au> (https://www.imagineit.com.au/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrendAndrew/musselav/issues"
+  },
+  "homepage": "https://github.com/TrendAndrew/musselav"
 }
