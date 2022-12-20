@@ -1,8 +1,8 @@
 {
   "name": "@anamico/musselav",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node example/exampleServer.js"
